@@ -28,3 +28,18 @@ By effectively utilizing Git and GitHub, data analysts can build robust and impr
 SELECT * FROM EMPLOYEE
 
 ```
+
+![XIvJa-the-growing-state-of-unemployment-in-nigeria](https://github.com/user-attachments/assets/87a53fd6-eadd-49b2-8f4e-86b5dc2aec7b)
+
+
+
+
+
+
+
+
+
+
+
+
+
