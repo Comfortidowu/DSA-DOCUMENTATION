@@ -13,7 +13,7 @@ HireDate date
 drop table Employee
 
 ---START--
-```SELECT * FROM [dbo].[oldest_companies]```
+SELECT * FROM [dbo].[oldest_companies]
 
 ---The range of the founding years of the oldest companies in the world---
 SELECT MAX("Year")-MIN("Year") AS Range FROM [dbo].[oldest_companies]
