@@ -13,7 +13,7 @@ HireDate date
 drop table Employee
 
 ---START--
-SELECT * FROM [dbo].[oldest_companies]
+```SELECT * FROM [dbo].[oldest_companies]```
 
 ---The range of the founding years of the oldest companies in the world---
 SELECT MAX("Year")-MIN("Year") AS Range FROM [dbo].[oldest_companies]
@@ -28,7 +28,7 @@ SELECT MAX("YEAR") AS [MAXIMUM YEAR], Current_location FROM [dbo].[oldest_compan
 where year = (select max("Year") from [dbo].[oldest_companies])
 Group by Current_location
 
----How many companies—and which ones—were founded before 1000 AD---
+---How many companiesâ€”and which onesâ€”were founded before 1000 AD---
 SELECT COUNT("Company") AS [TOTAL COMPANIES] FROM [dbo].[oldest_companies]
 SELECT Year,Company FROM [dbo].[oldest_companies]
 WHERE Year<1000
